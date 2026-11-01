@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">TFM2 Launcher</string>
+    <string name="title">Teamfight Manager 2</string>
+    <string name="subtitle">Запуск твоей Steam-копии через GameNative</string>
+    <string name="play">Играть</string>
+    <string name="open_gamenative">Открыть GameNative</string>
+    <string name="get_gamenative">Скачать GameNative</string>
+    <string name="steam_page">Страница игры в Steam</string>
+    <string name="settings">Настройки запуска</string>
+    <string name="resolution">Разрешение</string>
+    <string name="dx_wrapper">Графика (DirectX)</string>
+    <string name="box64_preset">Режим эмуляции (Box64)</string>
+    <string name="show_fps">Показывать FPS</string>
+    <string name="reset">Сбросить к рекомендуемым</string>
+    <string name="status_ok">GameNative найден (%1$s). Если игра ещё не установлена, сначала скачай её в GameNative.</string>
+    <string name="status_missing">GameNative не установлен. Скачай его, войди в Steam и установи Teamfight Manager 2.</string>
+    <string name="launch_failed">Не удалось запустить GameNative: %1$s</string>
+    <string name="hint">Файлы игры в лаунчер не входят. Игра скачивается из твоей библиотеки Steam внутри GameNative.</string>
+</resources>
