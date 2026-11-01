@@ -10,7 +10,7 @@
 
 1. Установи GameNative ([релизы](https://github.com/utkarshdalal/GameNative/releases/latest)).
 2. Войди в Steam в GameNative и установи Teamfight Manager 2.
-3. Скачай `tfm2-launcher.apk` из последней сборки (Actions → Build APK → Artifacts) или из Releases.
+3. Скачай `tfm2-launcher.apk`: [последняя сборка](https://github.com/yannyoky/tfm2-launcher/releases/download/latest-build/tfm2-launcher.apk) (обновляется на каждый пуш) или стабильную версию из Releases.
 4. Открой TFM2 Launcher и нажми «Играть».
 
 ## Настройки

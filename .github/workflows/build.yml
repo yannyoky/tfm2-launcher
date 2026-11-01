@@ -30,6 +30,17 @@ jobs:
         with:
           name: tfm2-launcher-apk
           path: tfm2-launcher.apk
+      - name: Publish rolling "latest-build" pre-release (pushes only)
+        if: github.event_name == 'push' && startsWith(github.ref, 'refs/heads/')
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh release delete latest-build --yes --cleanup-tag || true
+          gh release create latest-build tfm2-launcher.apk \
+            --prerelease \
+            --target "$GITHUB_SHA" \
+            --title "Последняя сборка (${GITHUB_REF_NAME})" \
+            --notes "Автосборка из ветки ${GITHUB_REF_NAME}, коммит ${GITHUB_SHA::7}. Для теста, не стабильный релиз."
       - name: Publish release (tags only)
         if: startsWith(github.ref, 'refs/tags/v')
         uses: softprops/action-gh-release@v2
