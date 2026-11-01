@@ -52,7 +52,7 @@ public class MainActivity extends Activity {
         box64Preset = findViewById(R.id.box64_preset);
         showFps = findViewById(R.id.show_fps);
 
-        setOptions(resolution, new String[]{"Авто (как в GameNative)", "1920×1080 (рекомендуется)", "2560×1440", "1600×900", "1280×720 (быстрее)"});
+        setOptions(resolution, new String[]{"Авто (как в GameNative)", "1920×1080", "2560×1440", "1600×900", "1280×720 (рекомендуется)"});
         setOptions(dxWrapper, new String[]{"Авто (как в GameNative)", "DXVK", "WineD3D (если чёрный экран)"});
         setOptions(box64Preset, new String[]{"Авто (как в GameNative)", "Stability (рекомендуется)", "Compatibility", "Intermediate", "Performance"});
 

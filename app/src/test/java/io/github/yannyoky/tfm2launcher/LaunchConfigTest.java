@@ -8,7 +8,7 @@ public class LaunchConfigTest {
 
     @Test
     public void recommendedSetsResolutionAndBox64Only() {
-        assertEquals("{\"screenSize\":\"1920x1080\",\"box64Preset\":\"STABILITY\"}",
+        assertEquals("{\"screenSize\":\"1280x720\",\"box64Preset\":\"STABILITY\"}",
                 LaunchConfig.recommended().toContainerConfigJson());
     }
 

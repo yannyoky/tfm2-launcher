@@ -10,7 +10,7 @@
     <string name="settings">Настройки запуска</string>
     <string name="resolution">Разрешение</string>
     <string name="dx_wrapper">Графика (DirectX)</string>
-    <string name="box64_preset">Режим эмуляции (Box64)</string>
+    <string name="box64_preset">Режим эмуляции Box64 (не влияет, если в GameNative выбран Wine arm64ec: там работает FEXCore, его пресет ставится в GameNative)</string>
     <string name="show_fps">Показывать FPS</string>
     <string name="reset">Сбросить к рекомендуемым</string>
     <string name="status_ok">GameNative найден (%1$s). Если игра ещё не установлена, сначала скачай её в GameNative.</string>

@@ -34,7 +34,7 @@ public final class LaunchConfig {
 
     /** Recommended start point for a Snapdragon 8 Gen 3 phone such as the Galaxy S24 Ultra. */
     public static LaunchConfig recommended() {
-        return new LaunchConfig("1920x1080", AUTO, "STABILITY", false);
+        return new LaunchConfig("1280x720", AUTO, "STABILITY", false);
     }
 
     /** JSON for the container_config extra. Values come only from the fixed lists above. */
